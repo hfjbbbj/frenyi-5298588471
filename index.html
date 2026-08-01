@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>قراند للغواصات</title>
+    <style>
+        body {
+            font-family: Tahoma, sans-serif;
+            background: #f8f9fa;
+            text-align: center;
+            padding: 20px;
+            direction: rtl;
+            color: #333;
+        }
+        .header {
+            background: linear-gradient(135deg, #6c5ce7, #a29bfe);
+            color: #fff;
+            padding: 30px;
+            border-radius: 15px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+        .auth-box, .product {
+            background: #fff;
+            padding: 25px;
+            margin: 20px auto;
+            width: 320px;
+            border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+        }
+        input {
+            padding: 12px;
+            margin: 10px 0;
+            width: 90%;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            text-align: right;
+            font-size: 14px;
+        }
+        button {
+            background: #00b894;
+            color: white;
+            border: none;
+            padding: 12px;
+            border-radius: 8px;
+            cursor: pointer;
+            width: 95%;
+            font-weight: bold;
+            font-size: 16px;
+            transition: 0.3s;
+        }
+        button:hover {
+            background: #00cec9;
+        }
+        .price {
+            color: #d63031;
+            font-weight: bold;
+            font-size: 20px;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>قراند للغواصات</h1>
+        <p>غوصات</p>
+    </div>
+    
+    <div class="auth-box">
+        <h3>تسجيل الدخول للمتجر</h3>
+        <input type="text" id="phone" placeholder="أدخل رقم الجوال أو البريد">
+        <button onclick="alert('تم تسجيل الدخول بنجاح!')">دخول</button>
+    </div>
+
+    <div class="product">
+        <h3>غواصه ب0.50﷼</h3>
+        <p class="price">0.50﷼</p>
+        <button onclick="alert('تمت إضافة المنتج إلى السلة!')">شراء الآن</button>
+    </div>
+</body>
+</html>
